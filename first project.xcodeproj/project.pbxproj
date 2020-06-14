@@ -13,10 +13,11 @@
 		18A349792483F1D10059B243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A349772483F1D10059B243 /* Main.storyboard */; };
 		18A3497B2483F28C0059B243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A3497A2483F28C0059B243 /* Assets.xcassets */; };
 		18A3497E2483F28C0059B243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A3497C2483F28C0059B243 /* LaunchScreen.storyboard */; };
+		18BD2C7324854EC200684981 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD2C7224854EC200684981 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18A3496E2483F1CE0059B243 /* first project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "first project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3496E2483F1CE0059B243 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A349712483F1CF0059B243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A349732483F1D00059B243 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18A349752483F1D00059B243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		18A3497A2483F28C0059B243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A3497D2483F28C0059B243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A3497F2483F28C0059B243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BD2C7224854EC200684981 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		18A3496F2483F1CE0059B243 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18A3496E2483F1CE0059B243 /* first project.app */,
+				18A3496E2483F1CE0059B243 /* CurrencyConverter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +62,7 @@
 				18A349732483F1D00059B243 /* SceneDelegate.swift */,
 				18A349752483F1D00059B243 /* ViewController.swift */,
 				18A349772483F1D10059B243 /* Main.storyboard */,
+				18BD2C7224854EC200684981 /* TableViewController.swift */,
 				18A3497A2483F28C0059B243 /* Assets.xcassets */,
 				18A3497C2483F28C0059B243 /* LaunchScreen.storyboard */,
 				18A3497F2483F28C0059B243 /* Info.plist */,
@@ -84,7 +87,7 @@
 			);
 			name = "first project";
 			productName = "first project";
-			productReference = 18A3496E2483F1CE0059B243 /* first project.app */;
+			productReference = 18A3496E2483F1CE0059B243 /* CurrencyConverter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,6 +144,7 @@
 				18A349762483F1D00059B243 /* ViewController.swift in Sources */,
 				18A349722483F1CF0059B243 /* AppDelegate.swift in Sources */,
 				18A349742483F1D00059B243 /* SceneDelegate.swift in Sources */,
+				18BD2C7324854EC200684981 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +291,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5BPPQSG4NA;
 				INFOPLIST_FILE = "first project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "new.first-project";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "new.Currency-converter";
+				PRODUCT_NAME = CurrencyConverter;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +310,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5BPPQSG4NA;
 				INFOPLIST_FILE = "first project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "new.first-project";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "new.Currency-converter";
+				PRODUCT_NAME = CurrencyConverter;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
